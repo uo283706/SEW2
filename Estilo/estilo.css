@@ -14,7 +14,8 @@ body{
 nav{
 
     text-align: center;
-    background-color: rgb(255, 46, 88);
+    background-color: rgb(255, 127, 127);
+    color:black;
    
     
 }
@@ -25,17 +26,21 @@ header{
     font:bold;
     font-size: 3em;
     background-color: crimson;
+    color:white;
 }
 
 /*Especifidad :1*/
 section{
     text-align: left;
+    color:black;
+    background-color: rgb(255, 127, 127);
 }
 
 /*Especifidad :1*/
 aside{
     text-align: right;
-    color: rgb(7, 7, 255);
+    color: black;
+    background-color: rgb(255, 127, 127);
     
 }
 
@@ -44,8 +49,8 @@ footer{
     text-align: center;
     font:italic;
     background-color: crimson;
+    color:white;
 }
-
 
 
 
