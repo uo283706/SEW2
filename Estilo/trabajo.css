@@ -1,0 +1,75 @@
+/**********************************************
+    Sara L. - UO283706
+    Descripcion de los estilos
+**********************************************/
+
+body{
+    display: grid;
+    margin-top: 1em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    border :0em, rgb(255, 184, 78);
+
+}
+
+header{
+    background-color: crimson;
+    text-align: center;
+    margin-top: 1em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    display: grid; 
+}
+
+footer{
+    background-color: crimson;
+    margin-top: 1em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    display: grid;
+}
+
+section{
+    background-color: rgb(211, 103, 103);
+    margin-top: 1em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    display: grid;
+}
+
+nav{
+    background-color: rgb(206, 52, 83);
+    margin-top: 1em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    display: grid;
+    
+}
+
+video{
+    background-color: rgb(211, 103, 103);
+    margin-top: 1em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    display: grid;
+}
+
+aside{
+
+    background-color: rgb(206, 52, 83);
+    margin-top: 1em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    display: grid;
+}
+
+
+
+
