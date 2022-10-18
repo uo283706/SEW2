@@ -1,0 +1,51 @@
+/**********************************************
+    Sara L. - UO283706
+    Descripcion de los estilos
+    Estilo para la página principal del sitio web
+**********************************************/
+/*Especifidad :1*/
+body{
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 127, 127);
+}
+
+/*Especifidad :1*/
+nav{
+
+    text-align: center;
+    background-color: rgb(255, 46, 88);
+   
+    
+}
+
+/*Especifidad :1*/
+header{
+    text-align: center;
+    font:bold;
+    font-size: 3em;
+    background-color: crimson;
+}
+
+/*Especifidad :1*/
+section{
+    text-align: left;
+}
+
+/*Especifidad :1*/
+aside{
+    text-align: right;
+    color: rgb(7, 7, 255);
+    
+}
+
+/*Especifidad :1*/
+footer{
+    text-align: center;
+    font:italic;
+    background-color: crimson;
+}
+
+
+
+
