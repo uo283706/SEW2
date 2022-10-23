@@ -7,24 +7,46 @@
 body{
 
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(255, 127, 127);
+    background-color: crimson;
+    color: white;
+}
+
+p{
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+    font-size: 2em;
 }
 
 /*Especifidad :1*/
 nav{
 
     text-align: center;
-    background-color: rgb(255, 127, 127);
-    color:black;
+    background-color: crimson;
+    color: white;
+    font-size: 1.1em;
+    border-style: dotted;
+    border-color: crimson;
    
-    
+}
+
+nav a {
+    color: white;
+}
+
+address a{
+
+    color: white;
+
 }
 
 /*Especifidad :1*/
 header{
     text-align: center;
     font:bold;
-    font-size: 3em;
+    font-size: 2.7em;
     background-color: crimson;
     color:white;
 }
@@ -33,15 +55,26 @@ header{
 section{
     text-align: left;
     color:black;
-    background-color: rgb(255, 127, 127);
+    background-color: crimson;
+    color: white;
+    border-width: 0.5em ; 
+    border-style: solid;
+    border-color: crimson;
 }
 
 /*Especifidad :1*/
 aside{
-    text-align: right;
     color: black;
-    background-color: rgb(255, 127, 127);
+    border-style: dotted;
+    background-color: crimson;
+    color: white;
     
+}
+
+aside a{
+    color: white;
+
+
 }
 
 /*Especifidad :1*/
@@ -51,6 +84,31 @@ footer{
     background-color: crimson;
     color:white;
 }
+
+video{
+    justify-self: center;
+}
+
+address{
+    color: white;
+    font-style: italic;
+}
+
+table thead{
+
+    text-align: center;
+
+}
+table tbody{
+
+    text-align: center;
+
+}
+
+form button {
+    font-size: 1.5em;
+}
+
 
 
 

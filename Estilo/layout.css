@@ -2,5 +2,62 @@
     Sara L. - UO283706
     Descripcion de los estilos
 **********************************************/
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "header header header header"
+      "nav nav nav nav"
+      "main main main sidebar"
+      "footer footer footer footer";
+    column-gap: 40px;
 
+}
+
+main{
+    display: grid;
+    grid-area: main;
+    align-items: center;
+}
+
+header{
+    display: grid;
+    grid-area: header;
+    justify-items: center;
+}
+
+section{
+    display: grid;
+}
+
+section picture {
+    align-items: center;
+}
+
+nav{
+    display: grid;
+    grid-area: nav;
+}
+
+footer{
+    display: grid;
+    grid-area: footer;
+    align-items: end;
+}
+
+footer picture{
+    align-items: center;
+}
+
+aside{
+    display: grid;
+    grid-area: sidebar;
+    justify-items: end;
+}
+
+video{
+    display: grid;
+    justify-items: start;
+}
 
