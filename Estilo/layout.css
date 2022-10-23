@@ -2,58 +2,55 @@
     Sara L. - UO283706
     Descripcion de los estilos
 **********************************************/
-body{
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr 1fr;
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas: 
-      "header header header header"
-      "nav nav nav nav"
-      "main main main sidebar"
-      "footer footer footer footer";
-    gap: 1em;
-    min-height: 5em;
+@media only screen and (min-width: 90em) {
+    body{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr 1fr;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: 
+          "header header header header"
+          "nav nav nav nav"
+          "main main main sidebar"
+          "footer footer footer footer";
+        gap: 0.5em;
+        min-height: 5em;
+    
+    }
+    
+    main{
+        display: grid;
+        grid-area: main;
+        align-self: center;
+    }
+    
+    header{
+        display: grid;
+        grid-area: header;
+    }
+    
+    nav{
+        display: grid;
+        grid-area: nav;
+        align-self: center;
+    }
+    
+    
+    footer{
+        display: grid;
+        grid-area: footer;
+        align-self: end;
+    }
+    
+    aside{
+        display: grid;
+        grid-area: sidebar;
+        grid-column: 4;
+        grid-row: 3;
+    }
 
+    video{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
 }
-
-main{
-    display: grid;
-    grid-area: main;
-    align-items: center;
-}
-
-header{
-    display: grid;
-    grid-area: header;
-    justify-items: center;
-}
-
-nav{
-    display: grid;
-    grid-area: nav;
-    align-self: center;
-}
-
-
-footer{
-    display: grid;
-    grid-area: footer;
-    align-items: end;
-}
-
-footer picture{
-    align-items: center;
-}
-
-aside{
-    display: grid;
-    grid-area: sidebar;
-    justify-items: start;
-    grid-column: 4;
-    grid-row: 3;
-}
-
-aside a{
-    justify-items: start;
-}
-
