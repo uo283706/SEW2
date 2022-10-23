@@ -24,7 +24,7 @@
     </header>
     <nav>
         <a href="index.html">Página de inicio</a>
-        <a href="Enlacesdeinterés.html">Enlaces de interés</a>
+        <a href="Enlacesdeinteres.html">Enlaces de interés</a>
         <a href="VentjDesv.html">Ventajas y desventajas</a>
         <a href="Versiones.html">Versiones</a>
         <a href="Vulnerabilidades.html">Vulnerabilidades</a>
@@ -34,15 +34,15 @@
         <form>
             <fieldset>
                 <h2>Datos personales:</h2>
-                <p><label>Nombre: </label><input name="custname" required type="text"></p>
-                <p><label>Apellidos: </label><input name="custapell" required type="text"> </p>
-                <p><label>Edad: </label><input name="custage" required type="number"> </p>
+                <p><label for="custname">Nombre: </label><input id="custname" required type="text"></p>
+                <p><label for = "custapell">Apellidos: </label><input id="custapell" required type="text"> </p>
+                <p><label for= "custage">Edad: </label><input id="custage" required type="number"> </p>
                 <fieldset>
                     <legend>Sexo:</legend>
-                    <p><label> <input type=radio name=size  required value="Hombre"> Hombre </label></p>
-                    <p><label> <input type=radio name=size  required value="Mujer"> Mujer </label></p>
+                    <p><label> <input type=radio id=size  required value="Hombre"> Hombre </label></p>
+                    <p><label> <input type=radio id=size  required value="Mujer"> Mujer </label></p>
                 </fieldset>
-                <p><label>Email: </label><input name="custage" required type="email"> </p>
+                <p><label for = "custemail">Email: </label><input id="custemail" required type="email"> </p>
             </fieldset>
                 
             <fieldset>
@@ -65,7 +65,7 @@
                     <p><label> <input type=radio name=size  required value="Meow"> Se muestra por pantalla sólo "Meow" </label></p>
                     <p><label> <input type=radio name=size  required value="Correcta"> Se muestra por pantalla "inhala y exhala" y "Meow" </label></p>
                     <p><label> <input type=radio name=size  required value="Nada"> No se muestra nada por pantalla </label></p>
-                    <p><label> <input type=radio name=size  required value="Mujer"> Se muestra por pantalla sólo "inhala y exhala" </label></p>
+                    <p><label> <input type=radio name=size  required value="Incorrecta"> Se muestra por pantalla sólo "inhala y exhala" </label></p>
                     <p><label> <input type=radio name=size  required value="Ninguna"> Ninguna de las anteriores </label></p>
                 </fieldset>
                

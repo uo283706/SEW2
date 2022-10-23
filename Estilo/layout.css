@@ -4,14 +4,15 @@
 **********************************************/
 body{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+    grid-template-rows: auto auto auto auto;
     grid-template-areas: 
       "header header header header"
       "nav nav nav nav"
       "main main main sidebar"
       "footer footer footer footer";
-    column-gap: 40px;
+    gap: 1em;
+    min-height: 5em;
 
 }
 
@@ -27,18 +28,12 @@ header{
     justify-items: center;
 }
 
-section{
-    display: grid;
-}
-
-section picture {
-    align-items: center;
-}
-
 nav{
     display: grid;
     grid-area: nav;
+    align-self: center;
 }
+
 
 footer{
     display: grid;
@@ -53,11 +48,12 @@ footer picture{
 aside{
     display: grid;
     grid-area: sidebar;
-    justify-items: end;
+    justify-items: start;
+    grid-column: 4;
+    grid-row: 3;
 }
 
-video{
-    display: grid;
+aside a{
     justify-items: start;
 }
 
