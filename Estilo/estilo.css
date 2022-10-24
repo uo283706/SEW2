@@ -5,9 +5,9 @@
 **********************************************/
 /*Especifidad :1*/
 body{
-
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(255, 204, 204);
+    color: white;
 }
 
 h2{
@@ -37,11 +37,12 @@ main{
 
 nav a {
     color: white;
+    background-color: crimson;
 }
 
 address a{
-
     color: white;
+    background-color: crimson;
 
 }
 
@@ -61,7 +62,6 @@ header{
 /*Especifidad :1*/
 section{
     text-align: left;
-    color:black;
     background-color: crimson;
     color: white;
 }
@@ -76,7 +76,6 @@ section:last-child{
 
 /*Especifidad :1*/
 aside{
-    color: black;
     border-style: solid;
     border-color: chocolate;
     background-color: crimson;
@@ -89,6 +88,7 @@ aside{
 
 aside a{
     color: white;
+    background-color: crimson;
 
 
 }
@@ -107,6 +107,7 @@ footer{
 address{
     color: white;
     font-style: italic;
+    background-color: crimson;
 }
 
 table thead{
