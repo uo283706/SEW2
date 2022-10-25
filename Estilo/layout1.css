@@ -42,4 +42,10 @@
         grid-area: footer;
         justify-content: center;
     }
+
+    /*Especificidad:(0,0,1) A=0 B=0 C=1*/
+    table{
+        display: grid;
+        justify-content: center;
+    }
     
