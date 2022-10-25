@@ -1,0 +1,44 @@
+/**********************************************
+    Sara L. - UO283706
+    Descripcion de los estilos
+**********************************************/
+@media only screen and (min-width: 90em) {
+    body{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr 1fr;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: 
+          "header header header header"
+          "nav nav nav nav"
+          "main main main main"
+          "footer footer footer footer";
+        gap: 0.5em;
+        min-height: 5em;
+    
+    }
+    
+    main{
+        display: grid;
+        grid-area: main;
+        align-self: center;
+    }
+    
+    header{
+        display: grid;
+        grid-area: header;
+    }
+    
+    nav{
+        display: grid;
+        grid-area: nav;
+        align-self: center;
+    }
+    
+    
+    footer{
+        display: grid;
+        grid-area: footer;
+        align-self: end;
+    }
+    
+}

@@ -151,12 +151,20 @@ section img {
 
 footer picture img {
     border-radius: 0.4em;
+    height: 10vh;
+    width: 10vh;
 }
 
 video{
-    max-height: 35em;
+    height: 30vw;
+    width: 45vw;
+
 }
 
+section picture img{
+    height: 20vw;
+    width: 35vw;
+}
 
 
 
