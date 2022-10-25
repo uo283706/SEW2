@@ -4,13 +4,12 @@
 **********************************************/
     body{
         display: grid;
-        grid-template-columns: 2fr 2fr 2fr 1fr;
-        grid-template-rows: auto auto auto auto;
         grid-template-areas: 
-          "header header header header"
-          "nav nav nav nav"
-          "main main main aside"
-          "footer footer footer footer";
+          "header header"
+          "nav nav"
+          "main main"
+          "aside aside"
+          "footer footer";
         gap: 0.5vw;
         min-height: 5em;
     
