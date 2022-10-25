@@ -5,7 +5,7 @@
 **********************************************/
 /*Especificidad:(0,0,1) A=0 B=0 C=1*/
 body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(255, 204, 204);
     color: white;
 }
@@ -22,7 +22,6 @@ main{
 
 /*Especificidad:(0,0,1) A=0 B=0 C=1*/
 header{
-    text-align: center;
     font:bold;
     font-size: 2.7em;
     background-color: rgb(239, 129, 51);
@@ -35,7 +34,6 @@ header{
 
 /*Especificidad:(0,0,1) A=0 B=0 C=1*/
 nav{
-    text-align: center;
     background-color: crimson;
     color: white;
     font-size: 1.1em;
@@ -47,7 +45,6 @@ nav{
 
 /*Especificidad:(0,0,1) A=0 B=0 C=1*/
 section{
-    text-align: left;
     background-color: crimson;
     color: white;
 }
@@ -65,7 +62,6 @@ aside{
 
 /*Especificidad:(0,0,1) A=0 B=0 C=1*/
 footer{
-    text-align: center;
     font:italic;
     background-color: crimson;
     color:white;
@@ -107,7 +103,6 @@ video{
 
 /*Especificidad:(0,0,1) A=0 B=0 C=1*/
 h2{
-    text-align: center;
     font-size: 2em;
     background-color: crimson;
     color: white;
@@ -125,20 +120,6 @@ form button {
 }
 
 /*Especificidad:(0,0,2) A=0 B=0 C=2*/
-table thead{
-
-    text-align: center;
-
-}
-
-/*Especificidad:(0,0,2) A=0 B=0 C=2*/
-table tbody{
-
-    text-align: center;
-
-}
-
-/*Especificidad:(0,0,2) A=0 B=0 C=2*/
 address a{
     color: white;
     background-color: crimson;
@@ -153,9 +134,6 @@ aside a{
 
 /*Especificidad:(0,0,2) A=0 B=0 C=2*/
 section img {
-    display: grid;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 1em;
 }
 
@@ -168,8 +146,8 @@ section picture img{
 /*Especificidad:(0,0,3) A=0 B=0 C=3*/
 footer picture img {
     border-radius: 0.4em;
-    height: 10vh;
-    width: 10vh;
+    height: 5vh;
+    width: 5vh;
 }
 
 

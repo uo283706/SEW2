@@ -20,25 +20,26 @@
     main{
         display: grid;
         grid-area: main;
-        align-self: center;
     }
     
     /*Especificidad:(0,0,1) A=0 B=0 C=1*/
     header{
-        display: grid;
+        display: flex;
         grid-area: header;
+        justify-content: center;
     }
     
     /*Especificidad:(0,0,1) A=0 B=0 C=1*/
     nav{
         display: grid;
         grid-area: nav;
-        align-self: center;
+        justify-content: center;
     }
     
     /*Especificidad:(0,0,1) A=0 B=0 C=1*/
     footer{
-        display: grid;
+        display: flex;
         grid-area: footer;
+        justify-content: center;
     }
     
