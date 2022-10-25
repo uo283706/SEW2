@@ -10,6 +10,7 @@
           "header header"
           "nav nav"
           "main main"
+          "tabla tabla"
           "footer footer";
         gap: 0.5vw;
         min-height: 5em;
@@ -40,6 +41,12 @@
     footer{
         display: flex;
         grid-area: footer;
+        justify-content: center;
+    }
+
+    table{
+        display: grid;
+        grid-area: tabla;
         justify-content: center;
     }
     
