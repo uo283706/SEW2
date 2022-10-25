@@ -1,40 +1,42 @@
 /**********************************************
     Sara L. - UO283706
-    Descripcion de los estilos
+    Descripcion del layout de las demás páginas
 **********************************************/
 
+    /*Especificidad:(0,0,1) A=0 B=0 C=1*/
     body{
         display: grid;
-        grid-template-columns: 2fr 2fr 2fr 1fr;
-        grid-template-rows: auto auto auto auto;
         grid-template-areas: 
-          "header header header header"
-          "nav nav nav nav"
-          "main main main main"
-          "footer footer footer footer";
-        gap: 0.5em;
+          "header header"
+          "nav nav"
+          "main main"
+          "footer footer";
+        gap: 0.5vw;
         min-height: 5em;
     
     }
     
+    /*Especificidad:(0,0,1) A=0 B=0 C=1*/
     main{
         display: grid;
         grid-area: main;
         align-self: center;
     }
     
+    /*Especificidad:(0,0,1) A=0 B=0 C=1*/
     header{
         display: grid;
         grid-area: header;
     }
     
+    /*Especificidad:(0,0,1) A=0 B=0 C=1*/
     nav{
         display: grid;
         grid-area: nav;
         align-self: center;
     }
     
-    
+    /*Especificidad:(0,0,1) A=0 B=0 C=1*/
     footer{
         display: grid;
         grid-area: footer;

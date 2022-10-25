@@ -1,7 +1,8 @@
 /**********************************************
     Sara L. - UO283706
-    Descripcion de los estilos
+    Descripcion del layout de la página principal
 **********************************************/
+    /*Especificidad:(0,0,1) A=0 B=0 C=1*/
     body{
         display: grid;
         grid-template-areas: 
@@ -15,28 +16,33 @@
     
     }
     
+    /*Especificidad:(0,0,1) A=0 B=0 C=1*/
     main{
         display: grid;
         grid-area: main;
         align-self: center;
     }
     
+    /*Especificidad:(0,0,1) A=0 B=0 C=1*/
     header{
         display: grid;
         grid-area: header;
     }
     
+    /*Especificidad:(0,0,1) A=0 B=0 C=1*/
     nav{
         display: grid;
         grid-area: nav;
         align-self: center;
     }
     
+    /*Especificidad:(0,0,1) A=0 B=0 C=1*/
     aside{
         display: grid;
         grid-area: aside;
     }
     
+    /*Especificidad:(0,0,1) A=0 B=0 C=1*/
     footer{
         display: grid;
         grid-area: footer;

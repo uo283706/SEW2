@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <!--Metadatos de los documentos HTML5-->
     <meta name ="author" content ="Sara Lamuño" >
-    <meta name ="description" content ="aquí cada documento debe tener la descripción del contenido concreto del mismo" >
-    <meta name ="keywords" content ="aquí cada documento debe tener la lista de las palabras clave del mismo separadas por comas" >
+    <meta name ="description" content ="Formulario con distintos campos a rellenar sobre la experiencia usando Ruby" >
+    <meta name ="keywords" content ="Formulario,conceptos,opinión,datos personales" >
 
     <meta name ="viewport" content ="width=device-width, initial-scale=1.0" >
 
@@ -24,30 +24,29 @@
         <h1>¿Qué te ha parecido Ruby?</h1>
     </header>
     <nav>
-        <a href="index.html">Página de inicio</a>
-        <a href="Enlacesdeinteres.html">Enlaces de interés</a>
-        <a href="VentjDesv.html">Ventajas y desventajas</a>
-        <a href="Versiones.html">Versiones</a>
-        <a href="Vulnerabilidades.html">Vulnerabilidades</a>
+        <a href="index.html" accesskey="I">Página de inicio</a>
+        <a href="Enlacesdeinteres.html" accesskey="E">Enlaces de interés</a>
+        <a href="VentjDesv.html" accesskey="V">Ventajas y desventajas</a>
+        <a href="Versiones.html" accesskey="R">Versiones</a>
+        <a href="Vulnerabilidades.html" accesskey="U">Vulnerabilidades</a>
         
     </nav>
     <main>
         <form>
             <fieldset>
                 <h2>Datos personales:</h2>
-                <p><label for="custname">Nombre: </label><input id="custname" required type="text"></p>
-                <p><label for = "custapell">Apellidos: </label><input id="custapell" required type="text"> </p>
-                <p><label for= "custage">Edad: </label><input id="custage" required type="number"> </p>
+                <p><label for="custname">Nombre: </label><input id="custname" required type="text" placeholder="Escriba su nombre"></p>
+                <p><label for = "custapell">Apellidos: </label><input id="custapell" required type="text" placeholder="Escriba su apellido"> </p>
                 <fieldset>
                     <legend>Sexo:</legend>
                     <p><label> <input type=radio id=size  required value="Hombre"> Hombre </label></p>
                     <p><label> <input type=radio required value="Mujer"> Mujer </label></p>
                 </fieldset>
-                <p><label for = "custemail">Email: </label><input id="custemail" required type="email"> </p>
+                <p><label for = "custemail">Email: </label><input id="custemail" required type="email" placeholder="Escriba su edad"> </p>
             </fieldset>
                 
             <fieldset>
-                <h2>Conceptos básicos</h2>
+                <legend>Conceptos básicos</legend>
                 <p>Ruby me ha parecido:</p>
                 <p><label> <input type=checkbox> Fácil de entender </label></p>
                 <p><label> <input type=checkbox> Intuitivo </label></p>
@@ -56,6 +55,7 @@
                 <p><label> <input type=checkbox> Bonito en diseño </label></p>
                 <p><label> <input type=checkbox> Completo en cuanto a funcionalidades </label></p>
                 <p><label> <input type=checkbox> Demasiado simple </label></p>
+                <p><label>Grado de satisfacción: </label><input id="rango" type = "range"></p>
             </fieldset>
             <fieldset> 
                 <h2>Pequeño test sobre programación en Ruby:</h2>
@@ -75,7 +75,7 @@
             </fieldset>
     
             <fieldset>
-                <h2>¡Deja tu opinión personal sobre Ruby!</h2>
+                <legend>¡Deja tu opinión personal sobre Ruby!</legend>
                 <p><label>Opinión: <textarea></textarea></label></p>
             </fieldset>
             
@@ -87,8 +87,12 @@
     </main>
     
     <footer>
-        <img src= "Multimedia/HTML5-1.png" alt= "¡En HTML5 válido!" >
-        <img src= "Multimedia/CSS3-1.png" alt= "¡En CSS válido!" >
+        <picture>
+            <img src= "Multimedia/HTML5-1.png" alt= "¡En HTML5 válido!" >
+        </picture>
+        <picture>
+            <img src= "Multimedia/CSS3-1.png" alt= "¡En CSS válido!" >
+        </picture>
         <address>
             <p> Página web realizada por:
             <a href="mailto:uo283706@uniovi.es">

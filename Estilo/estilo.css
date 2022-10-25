@@ -3,69 +3,24 @@
     Descripcion de los estilos
     Estilo para la página principal del sitio web
 **********************************************/
-/*Especifidad :1*/
+/*Especificidad:(0,0,1) A=0 B=0 C=1*/
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(255, 204, 204);
     color: white;
 }
 
-h2{
-    text-align: center;
-    font-size: 2em;
-    background-color: crimson;
-    color: white;
-}
-
-form{
-    background-color: crimson;
-    color: white;
-}
-
-table{
-    background-color: crimson;
-    color: white;
-}
-
-/*Especifidad :1*/
-nav{
-    text-align: center;
-    background-color: crimson;
-    color: white;
-    font-size: 1.1em;
-    border-style: solid;
-    border-color: chocolate;
-    border-radius: 1.2em;
-   
-}
-
+/*Especificidad:(0,0,1) A=0 B=0 C=1*/
 main{
     border-style: solid;
     border-color: chocolate;
-    border-top-left-radius: 1.2em;
-    border-bottom-left-radius: 1.2em;
+    border-radius: 1.2em;
     border-width: 0.5em ;
     background-color: crimson;
     color: white; 
 }
 
-nav a {
-    color: white;
-    background-color: crimson;
-}
-
-address a{
-    color: white;
-    background-color: crimson;
-
-}
-
-a{
-    color: white;
-    background-color: crimson;
-}
-
-/*Especifidad :1*/
+/*Especificidad:(0,0,1) A=0 B=0 C=1*/
 header{
     text-align: center;
     font:bold;
@@ -78,39 +33,37 @@ header{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/*Especifidad :1*/
+/*Especificidad:(0,0,1) A=0 B=0 C=1*/
+nav{
+    text-align: center;
+    background-color: crimson;
+    color: white;
+    font-size: 1.1em;
+    border-style: solid;
+    border-color: chocolate;
+    border-radius: 1.2em;
+   
+}
+
+/*Especificidad:(0,0,1) A=0 B=0 C=1*/
 section{
     text-align: left;
     background-color: crimson;
     color: white;
 }
 
-section:first-child{
-    border-top-left-radius: 0.6em;
-}
-
-section:last-child{
-    border-bottom-left-radius: 0.6em;
-}
-
-/*Especifidad :1*/
+/*Especificidad:(0,0,1) A=0 B=0 C=1*/
 aside{
     border-style: solid;
     border-color: chocolate;
     background-color: crimson;
     color: white;
     border-width: 0.5em ; 
-    border-top-right-radius: 1.2em;
-    border-bottom-right-radius: 1.2em;
+    border-radius: 1.2em;
     
 }
 
-aside a{
-    color: white;
-    background-color: crimson;
-}
-
-/*Especifidad :1*/
+/*Especificidad:(0,0,1) A=0 B=0 C=1*/
 footer{
     text-align: center;
     font:italic;
@@ -121,27 +74,84 @@ footer{
     border-width: 0.5em ; 
 }
 
+/*Especificidad:(0,0,1) A=0 B=0 C=1*/
+a{
+    color: white;
+    background-color: crimson;
+}
+
+/*Especificidad:(0,0,1) A=0 B=0 C=1*/
 address{
     color: white;
     font-style: italic;
     background-color: crimson;
 }
 
+/*Especificidad:(0,0,1) A=0 B=0 C=1*/
+form{
+    background-color: crimson;
+    color: white;
+}
+
+/*Especificidad:(0,0,1) A=0 B=0 C=1*/
+table{
+    background-color: crimson;
+    color: white;
+}
+
+/*Especificidad:(0,0,1) A=0 B=0 C=1*/
+video{
+    height: 30vw;
+    width: 45vw;
+}
+
+/*Especificidad:(0,0,1) A=0 B=0 C=1*/
+h2{
+    text-align: center;
+    font-size: 2em;
+    background-color: crimson;
+    color: white;
+}
+
+/*Especificidad:(0,0,2) A=0 B=0 C=2*/
+nav a {
+    color: white;
+    background-color: crimson;
+}
+
+/*Especificidad:(0,0,2) A=0 B=0 C=2*/
+form button {
+    font-size: 1.5em;
+}
+
+/*Especificidad:(0,0,2) A=0 B=0 C=2*/
 table thead{
 
     text-align: center;
 
 }
+
+/*Especificidad:(0,0,2) A=0 B=0 C=2*/
 table tbody{
 
     text-align: center;
 
 }
 
-form button {
-    font-size: 1.5em;
+/*Especificidad:(0,0,2) A=0 B=0 C=2*/
+address a{
+    color: white;
+    background-color: crimson;
+
 }
 
+/*Especificidad:(0,0,1) A=0 B=0 C=2*/
+aside a{
+    color: white;
+    background-color: crimson;
+}
+
+/*Especificidad:(0,0,2) A=0 B=0 C=2*/
 section img {
     display: grid;
     margin-left: auto;
@@ -149,21 +159,17 @@ section img {
     border-radius: 1em;
 }
 
+/*Especificidad:(0,0,3) A=0 B=0 C=3*/
+section picture img{
+    height: 20vw;
+    width: 35vw;
+}
+
+/*Especificidad:(0,0,3) A=0 B=0 C=3*/
 footer picture img {
     border-radius: 0.4em;
     height: 10vh;
     width: 10vh;
-}
-
-video{
-    height: 30vw;
-    width: 45vw;
-
-}
-
-section picture img{
-    height: 20vw;
-    width: 35vw;
 }
 
 
