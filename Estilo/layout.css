@@ -2,7 +2,6 @@
     Sara L. - UO283706
     Descripcion de los estilos
 **********************************************/
-@media only screen and (min-width: 90em) {
     body{
         display: grid;
         grid-template-columns: 2fr 2fr 2fr 1fr;
@@ -10,9 +9,9 @@
         grid-template-areas: 
           "header header header header"
           "nav nav nav nav"
-          "main main main sidebar"
+          "main main main aside"
           "footer footer footer footer";
-        gap: 0.5em;
+        gap: 0.5vw;
         min-height: 5em;
     
     }
@@ -34,18 +33,13 @@
         align-self: center;
     }
     
+    aside{
+        display: grid;
+        grid-area: aside;
+    }
     
     footer{
         display: grid;
         grid-area: footer;
-        align-self: end;
     }
     
-    aside{
-        display: grid;
-        grid-area: sidebar;
-        grid-column: 4;
-        grid-row: 3;
-    }
-    
-}

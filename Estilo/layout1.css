@@ -2,7 +2,7 @@
     Sara L. - UO283706
     Descripcion de los estilos
 **********************************************/
-@media only screen and (min-width: 90em) {
+
     body{
         display: grid;
         grid-template-columns: 2fr 2fr 2fr 1fr;
@@ -38,7 +38,5 @@
     footer{
         display: grid;
         grid-area: footer;
-        align-self: end;
     }
     
-}
